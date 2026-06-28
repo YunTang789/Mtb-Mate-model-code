@@ -63,6 +63,13 @@ Major dependencies include:
 
 Please install PyTorch and PyTorch Geometric versions compatible with your CUDA environment if needed.
 
+## Data
+
+The `clean_data/` directory contains the cleaned datasets used for model training:
+
+- `antiTB_mtb_cleaned_standardized.csv`: cleaned regression dataset for pMIC prediction.
+- `multi_cleaned_all20260424.csv`: cleaned classification dataset for target-specific activity prediction.
+
 ## Model Training
 
 Before running the training script, please modify the paths in `scripts/train.py`, especially:
