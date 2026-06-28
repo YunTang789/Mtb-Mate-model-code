@@ -1,0 +1,23 @@
+name: mtb_dl
+
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  - pytorch=2.5.1
+  - pytorch-cuda=11.8
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - xgboost
+  - rdkit
+  - tqdm
+  - joblib
+  - pip
+  - pip:
+      - torch-geometric==2.6.1
